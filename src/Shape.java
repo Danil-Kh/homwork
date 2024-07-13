@@ -1,6 +1,10 @@
 public abstract class Shape {
-public void gatNameFigure(){
-
+    private String name;
+protected String getName(){
+            return name;
+    }
+   protected void setName(String name) {
+        this.name = name;
     }
 }
 
