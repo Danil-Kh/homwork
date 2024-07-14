@@ -3,7 +3,7 @@ public abstract class Shape {
 protected String getName(){
             return name;
     }
-   protected void setName(String name) {
+    protected Shape(String name) {
         this.name = name;
     }
 }
